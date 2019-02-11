@@ -1,0 +1,64 @@
+vsim top +UVM_TESTNAME=test2
+# vsim +UVM_TESTNAME=test2 top 
+# Loading sv_std.std
+# Loading mtiUvm.uvm_pkg
+# Loading work.my_sequences(fast)
+# Loading work.my_pkg(fast)
+# Loading work.top(fast)
+# Loading mtiUvm.questa_uvm_pkg(fast)
+# Loading C:/questasim64_10.2c/uvm-1.1d\win64\uvm_dpi.dll
+run
+# ----------------------------------------------------------------
+# UVM-1.1d
+# (C) 2007-2013 Mentor Graphics Corporation
+# (C) 2007-2013 Cadence Design Systems, Inc.
+# (C) 2006-2013 Synopsys, Inc.
+# (C) 2011-2013 Cypress Semiconductor Corp.
+# ----------------------------------------------------------------
+# 
+#   ***********       IMPORTANT RELEASE NOTES         ************
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_NO_DEPRECATED undefined.
+#   See http://www.eda.org/svdb/view.php?id=3313 for more details.
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+#   See http://www.eda.org/svdb/view.php?id=3770 for more details.
+# 
+#       (Specify +UVM_NO_RELNOTES to turn off this notice)
+# 
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(215) @ 0: reporter [Questa UVM] QUESTA_UVM-1.2.2
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(217) @ 0: reporter [Questa UVM]  questa_uvm::init(+struct)
+# UVM_INFO @ 0: reporter [RNTST] Running test test2...
+# UVM_INFO E:/Questasim Projects/Hello World/uvm_basics_complete.sv(49) @ 5: reporter [mg] DUT received cmd=x, addr=  x, data=  x
+# UVM_INFO E:/Questasim Projects/Hello World/uvm_basics_complete.sv(312) @ 5: uvm_test_top.my_env_h.my_subscriber_h [mg] Subscriber received tx cmd=0, addr=0, data=0
+# UVM_INFO E:/Questasim Projects/Hello World/uvm_basics_complete.sv(49) @ 15: reporter [mg] DUT received cmd=1, addr=253, data=207
+# UVM_INFO E:/Questasim Projects/Hello World/uvm_basics_complete.sv(312) @ 15: uvm_test_top.my_env_h.my_subscriber_h [mg] Subscriber received tx cmd=1, addr=253, data=207
+# UVM_INFO E:/Questasim Projects/Hello World/uvm_basics_complete.sv(49) @ 25: reporter [mg] DUT received cmd=1, addr=253, data=208
+# UVM_INFO E:/Questasim Projects/Hello World/uvm_basics_complete.sv(312) @ 25: uvm_test_top.my_env_h.my_subscriber_h [mg] Subscriber received tx cmd=1, addr=253, data=208
+# UVM_INFO E:/Questasim Projects/Hello World/uvm_basics_complete.sv(49) @ 35: reporter [mg] DUT received cmd=1, addr= 67, data= 66
+# UVM_INFO E:/Questasim Projects/Hello World/uvm_basics_complete.sv(312) @ 35: uvm_test_top.my_env_h.my_subscriber_h [mg] Subscriber received tx cmd=1, addr=67, data=66
+# UVM_INFO E:/Questasim Projects/Hello World/uvm_basics_complete.sv(49) @ 45: reporter [mg] DUT received cmd=1, addr= 67, data= 67
+# UVM_INFO E:/Questasim Projects/Hello World/uvm_basics_complete.sv(312) @ 45: uvm_test_top.my_env_h.my_subscriber_h [mg] Subscriber received tx cmd=1, addr=67, data=67
+# UVM_INFO E:/Questasim Projects/Hello World/uvm_basics_complete.sv(49) @ 55: reporter [mg] DUT received cmd=1, addr= 31, data= 30
+# UVM_INFO E:/Questasim Projects/Hello World/uvm_basics_complete.sv(312) @ 55: uvm_test_top.my_env_h.my_subscriber_h [mg] Subscriber received tx cmd=1, addr=31, data=30
+# UVM_INFO verilog_src/uvm-1.1d/src/base/uvm_objection.svh(1268) @ 55: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+# 
+# --- UVM Report Summary ---
+# 
+# ** Report counts by severity
+# UVM_INFO :   16
+# UVM_WARNING :    0
+# UVM_ERROR :    0
+# UVM_FATAL :    0
+# ** Report counts by id
+# [Questa UVM]     2
+# [RNTST]     1
+# [TEST_DONE]     1
+# [mg]    12
+# ** Note: $finish    : C:/questasim64_10.2c/win64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh(430)
+#    Time: 55 ns  Iteration: 69  Instance: /top
+# 1
+# Break in Task uvm_pkg/uvm_root::run_test at C:/questasim64_10.2c/win64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh line 430
+
